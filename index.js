@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.login('NzE5MjA0MjU3MTk0MTgwNjI5.Xt0BLg.wHfEI5qGrW09jmapF5JYoM7pq3E');
+client.login(process.env.TOKEN);
 
 let clearValue;
 
